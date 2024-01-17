@@ -4,8 +4,13 @@
 
 Make sure to include the necessary dependencies in your app's `build.gradle` file:
 
+#### .gradle
 ```gradle
-implementation "androidx.navigation:navigation-compose:2.4.0-alpha02"
+implementation "androidx.navigation:navigation-compose:2.7.6"
+```
+#### .kts
+```kts
+implementation("androidx.navigation:navigation-compose:2.7.6")
 ```
 
 ## Step 2: Define Screens and Keys
